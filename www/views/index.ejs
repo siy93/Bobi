@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>BOBI</title>
+        <link rel="stylesheet" href="stylesheets/reset.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head">
+            <h1>BOBI</h1>
+        </div>
+        <div class="contents">
+            <div class="contect_section">
+                <span class="title">차주에게 연락할 방법</span>
+            <br>
+            <a class="btn" href="tel:<%= num %>">
+                <img src="images/call2.png">
+            </a>
+            <a class="btn" href="sms:<%=num%>">
+                <img src="images/message2.png">
+            </a>
+            </div>
+
+            <div class="simple_message">
+                <span class="title">간단한 문자</span>
+                <br>
+                <div class="message-btn">
+                    <a class="btn-2" href="sms:<%=num%>?body=지금 바로 차를 빼주세요!">
+                        <div class="message">지금 바로 차를 빼주세요!</div>
+                    </a>
+                    <br>
+                    <a class="btn-2" href="sms:<%=num%>?body=10분 내에 차를 빼주세요.">
+                        <div class="message">10분 내에 차를 빼주세요.</div>
+                    </a>
+                    <a class="btn-2" href="/sms:<%=num%>?body=30분 내에 차를 빼주세요.">
+                        <div class="message">30분 내에 차를 빼주세요.</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

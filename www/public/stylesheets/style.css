@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+body {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+.head {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.head h1 {
+    font-size: 90px;
+/*    font-family: 'Ubuntu', sans-serif;*/
+    text-align: center;
+/*    color: #47AFFF;*/
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+}
+
+.contents {
+    margin: 40px;
+    text-align: center;
+}
+
+.contents span {
+    font-family: 'Jeju Gothic', serif;
+    font-size: 35px;
+    margin: 10px;
+    color: black;
+}
+
+.contents .title {
+    font-size: 38px;
+}
+
+.contents .btn images {
+   width: 220px;
+    padding: 20px;
+}
+
+.contents .btn-2 .message {
+    font-family: 'Jeju Gothic', serif;
+    background-color: #ff5b5b;
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border-bottom: #cecece solid 4px;
+}
+
+.contents .message-btn {
+    margin: 20px;
+}
+
+.contents .simple_message {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px 0px 10px 0px;
+    border-radius: 8px;
+    border-bottom: #cecece solid 3px;
+}
+
+.contents .contect_section {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px 0px 10px 0px;
+    margin: 20px;
+    border-radius: 8px;
+    border-bottom: #cecece solid 3px;
+}
